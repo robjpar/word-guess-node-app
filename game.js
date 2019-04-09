@@ -42,7 +42,7 @@ function playNextRound() {
       name: 'letter',
       message: 'Guess a letter?',
       validate: function(value) {
-        return /^[a-zA-Z-]$/.test(value); // lowercase, uppercase and hyphen
+        return /^[a-zA-Z-]$/.test(value); // lowercase, uppercase and hyphen are valid
       }
     }])
     .then(function(answers) {
@@ -73,4 +73,5 @@ function playNextRound() {
     });
 }
 
+// Start the game
 restartGame();

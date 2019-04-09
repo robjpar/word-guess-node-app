@@ -1,9 +1,9 @@
 function Letter(letter) {
   this.letter = letter;
-  this.guessed = this.letter === ' ' ? true : false;
+  this.guessed = this.letter === ' ' ? true : false; // handling of spaces
 
   this.toString = function() {
-    if (this.letter === ' ') {
+    if (this.letter === ' ') { // handling of spaces
       return ' ';
     } else if (this.guessed) {
       return this.letter;

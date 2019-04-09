@@ -2,7 +2,7 @@ var Letter = require('./letter.js');
 
 function Word(word) {
   this.letters = [];
-  var that = this;
+  var that = this; // passing `this` to forEach's callback function
   word.split('').forEach(function(letter) {
     that.letters.push(new Letter(letter));
   });
@@ -10,7 +10,7 @@ function Word(word) {
   this.toString = function() {
     var text = '';
     this.letters.forEach(function(letter) {
-      text += ` ${letter} `;
+      text += ` ${letter} `; // surrounding spaces added for better readability
     });
     return text;
   };
