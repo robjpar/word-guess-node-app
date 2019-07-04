@@ -1,15 +1,22 @@
-# word-guess-node-app
+# Word Guess Game
 
-## Description
+Simple implementation of the Word Guess Game as a command line Node.js application.
 
- A simple implementation of the Word Guess Game as a command line Node.js application.
+## Technologies
 
-## How to get started
+- Node.js
+- Inquirer.js
+
+## Installation
 
 Requires `Node.js`. Clone the repository to a local folder and install the dependencies with `npm install`.
 
-## Gameplay
+## Usage
 
-Start the game with `node game.js` and follow the on-screen instructions. An example of a typical gameplay is shown below.
+Start a game with `node game.js` and follow the on-screen instructions. An typical gameplay is shown below.
 
-![usage](images/usage.gif "Usage")
+![usage](images/usage.gif 'Usage')
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
