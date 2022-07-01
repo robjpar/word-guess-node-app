@@ -13,7 +13,7 @@ Requires `Node.js`. Clone the repository to a local folder and install the depen
 
 ## Usage
 
-Start a game with `node game.js` and follow the on-screen instructions. An typical gameplay is shown below.
+Start a game with `node game.js` and follow the on-screen instructions. A typical gameplay is shown below.
 
 ![usage](images/usage.gif 'Usage')
 
